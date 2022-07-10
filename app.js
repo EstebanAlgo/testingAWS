@@ -2,7 +2,7 @@
 var express = require("express");
 var app = express();
 
-const port = process.env.PORT || 8443;
+const port = process.env.PORT || 80;
 
 app.get("/", function (req, res) {
   res.send("Hello World!");
